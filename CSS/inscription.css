@@ -1,0 +1,92 @@
+form{
+    width: 350px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 236);
+    
+}
+form h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 5);
+}
+form input{
+    width: 330px;
+    padding: 10px; display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+form button{
+    position: relative;
+    width: 200px;
+    height:40px;
+    border-radius: 15px;
+    top: 20px;
+    left: 70px;
+
+}
+form button:hover{
+    background-color: black;
+    color: white;
+}
+form input:hover{
+    background-color: black;
+    color:white;
+}
+form p {
+    position: relative;
+    font-size: 1.5rem;
+    display: flex;
+    top: 20px;
+    
+} form a {
+    text-decoration: none;
+    color: rgb(235, 12, 12);
+}
+.lesicones{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icones1 img{
+    width: 60px;
+    height: 60px;
+    
+   
+}
+.icones2 img{
+    width: 60px;
+    height: 60px;
+   
+}
+.icones3 img{
+    width: 60px;
+    height: 60px;
+    
+}
+.retour a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    font-size: 2rem;
+    color: black;
+}
